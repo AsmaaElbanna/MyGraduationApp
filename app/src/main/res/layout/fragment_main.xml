@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shefaaproject.Fragments.MainFragment"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    >
+
+    <ImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:src="@drawable/shefaa"
+        />
+
+    <Button
+        android:id="@+id/book_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/mybutton"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="احجز كشف دكتور                          "
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/book_service_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/mybutton"
+        android:text="احجز خدمة                                 "
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/ask_about_medicine_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/mybutton"
+        android:text="اسأل عن الدواء                               "
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/to_best_life_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/mybutton"
+        android:text="لحياة أفضل                                  "
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        />
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="3"
+      />
+</LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">شفاء</string>
+    <string name="search_name_doctor">name of doctor</string>
+    <string name="search_area">area</string>
+
+    <string name="sign_up_text">Sign up</string>
+    <string name="sign_up_title">Don\'t have account? </string>
+    <string name="login_with_facebook">Facebook</string>
+    <string name="login_with_google">Google</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="pass_error">Password length at least 6 characters</string>
+
+    <string name="facebook_app_id">350313172641045</string>
+    <string name="fb_login_protocol_scheme">fb350313172641045</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_medicine">search about medicine</string>
+    <string name="search_name_of_doctor">name of doctor</string>
+    <string name="search_about_service">search about service</string>
+    <string name="search_specialization">specialization</string>
+</resources>

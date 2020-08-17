@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.shefaaproject.Activities.MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/place_holder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/main_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/main"
+            android:onClick="mainClick"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/offer_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/offer"
+            android:onClick="offerClick"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/time_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/timetable"
+            android:onClick="timeClick"
+            android:layout_margin="10dp" />
+        <Button
+            android:id="@+id/like_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/like"
+            android:onClick="likeClick"
+            android:layout_margin="10dp" />
+        <Button
+            android:id="@+id/more_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/more"
+            android:onClick="moreClick"
+            android:layout_margin="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

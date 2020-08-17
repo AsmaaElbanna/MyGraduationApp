@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.shefaaproject.Activities.CallActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:layout_marginHorizontal="20dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/message"
+                android:layout_margin="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="لديك استفسار أو مشكلة؟ نحن هنا لمساعدتك "
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#393737"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="أضف رسالتك"
+                android:textSize="20sp"
+                android:textColor="#393737" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="إرسال"
+            android:textColor="#292828"
+            android:textSize="30sp"
+            android:background="@drawable/mybutton"
+            android:layout_margin="30dp"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
